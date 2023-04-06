@@ -5,7 +5,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Member {
-    @Id
+    @Id //PK
     private Long id;
     private String name;
 
